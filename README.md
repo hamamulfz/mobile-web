@@ -1,7 +1,6 @@
 # mobile-web-app
 
-This project is a part of [Mobile Web Specialist](https://events.withgoogle.com/googledeveloperskejar/) Training held by Google Developer Kejar x Inixindo.
-This is my web link [mws-hamamul.firebaseapp.com](https://mws-hamamul.firebaseapp.com/)
+This project is a part of [Google Developer Kejar](https://events.withgoogle.com/googledeveloperskejar/) - Mobile Web Specialist Training collaborated with Inixindo.
 
 
 ## Getting Started
@@ -36,11 +35,78 @@ install this project in firebase hosting by using [Node.js](https://nodejs.org/e
 ```
 firebase login
 ```
-
+this automatically login if your default browser already logged in firebase
 * init directory 
 ```
 firebase init
 ```
+
+agree to select your directory by type "y"
+```
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\yourDirectory\
+
+? Are you ready to proceed? Yes
+```
+then select Hosting Feature
+```
+? Which Firebase CLI features do you want to setup for this folder? Press Space
+ to select features, then Enter to confirm your choices. (Press <space> to sele
+ct)
+ ( ) Database: Deploy Firebase Realtime Database Rules
+ ( ) Firestore: Deploy rules and create indexes for Firestore
+ ( ) Functions: Configure and deploy Cloud Functions
+>(*) Hosting: Configure and deploy Firebase Hosting sites
+ ( ) Storage: Deploy Cloud Storage security rules
+```
+select your firebase project to use or create new project
+```
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add,
+but for now we'll just set up a default project.
+
+? Select a default Firebase project for this directory: (Use arrow keys)
+   [don't setup a default project]
+   arduino-6c774 (Arduino)
+   mws-hamamul (mws-hamamul)
+>  mws-project-b1c67 (MWS-Project)
+  [create a new project]
+```
+set as public
+```
+=== Hosting Setup
+
+Your public directory is the folder (relative to your project directory) that
+will contain Hosting assets to be uploaded with firebase deploy. If you
+have a build process for your assets, use your build's output directory.
+
+? What do you want to use as your public directory? (public)
+
+? Configure as a single-page app (rewrite all urls to /index.html)? (y/N) N
+```
+then you will see this 
+```
++  Wrote public/404.html
++  Wrote public/index.html
+
+i  Writing configuration info to firebase.json...
+i  Writing project information to .firebaserc...
+i  Writing gitignore file to .gitignore...
+
++  Firebase initialization complete!
+```
+Congratulation, you have succesfully configure your local directory as firebase hosting material
+
+
 
 * deploy project
 ```
@@ -62,7 +128,7 @@ firebase deploy
 
 ## Versioning
 
-This is final version of homework list. See the [My Firebase Web](https://mws-hamamul.firebaseapp.com/). 
+This is final version of homework list. See [My Firebase Web](https://mws-hamamul.firebaseapp.com/) for the result. 
 
 ## Authors
 
@@ -78,6 +144,6 @@ No licence. Just ask if you wanna copy this repo
 * Google Developer Kejar
 * Inixindo
 * Facilitator
+* W3school
 
-Go To My Firebase App
 [![Go To My Firebase Web App](https://www.ccapp.us/site_media/media/attachments/flatpages_flatpage/24/large-Go-Now-Button-0-102481.png)](https://mws-hamamul.firebaseapp.com/)
