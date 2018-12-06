@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
+	  <!-- Add to home screen for Safari on iOS -->
+	<link rel="apple-touch-icon" sizes="57x57" href="images/title/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/title/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/title/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/title/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/title/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/title/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/title/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/title/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/title/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="images/title/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/title/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="images/title/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/title/favicon-16x16.png">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="images/title/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Mobile Web Specialist - Hamamul Fauzi</title>
+	<Center> 
+		<div class="gdk_header">
+			<div class="gdk_content"><img src="images/gdk.png" alt="logo gdk" width="80%" ></div>
+		</div>
+	</center>
+
+	<link rel="stylesheet" type="text/css" href="css/leaflet_style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<style>
+	body { 
+		background-image: url('images/background-jogja.png');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center bottom; 
+		background-color:#fffff1;
+		background-size:contain;
+		
+	}
+	
+	<!-- @media screen and (min-width: 799px) { -->
+		<!-- body {  -->
+			<!-- background-size:800px; -->
+			<!-- } -->
+		<!-- .progress_grid { -->
+			<!-- width:800px; -->
+		<!-- } -->
+	<!-- } -->
+	
+	@media only screen and (min-width: 800px) {
+			body {
+				background-image: url('images/background-jogja -long.png');
+			}
+		}
+	</style>
+	
+	<style>
+		div.gallery {
+			border: 1px solid #ccc;
+		}
+
+		div.gallery:hover {
+			border: 1px solid #777;
+		}
+
+		div.gallery img {
+			width: 100%;
+			height: auto;
+		}
+
+		div.desc {
+			padding: 15px;
+			text-align: center;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		.responsive {
+			padding: 0 6px;
+			float: left;
+			width: 16%;
+		}
+
+
+
+		@media only screen and (max-width: 600px) {
+			.responsive {
+				width: 30%;
+				margin: 6px 0;
+			}
+		}
+		
+
+
+		.clearfix:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+	</style>
+</head>
+
+<body>
+	<center>
+	<h2>Assigment List </h2>
+	<p>Student Name : Hamamul Fauzi</p>
+
+	<!-- <div class="progress_grid"> -->
+		<!-- <div class='content_progress'>No</div> -->
+		<!-- <div class='content_progress'>Nama Tugas</div> -->
+		<!-- <div class='content_progress'>Keterangan</div> -->
+		
+		<!-- <div class='content_progress'>1</div> -->
+		<!-- <div class='content_progress'><a href="css_grid_index.html">CSS Grid </a></div> -->
+		<!-- <div class='content_progress'>Sudah</div> -->
+		
+		<!-- <div class='content_progress'>2</div> -->
+		<!-- <div class='content_progress'><a href="kalkulator_add2number.html">Kalkulator </a></div> -->
+		<!-- <div class='content_progress'>Sudah</div> -->
+		
+		<!-- <div class='content_progress'>3</div> -->
+		<!-- <div class='content_progress'><a href="leaflet_index.html">Leaflet </a></div> -->
+		<!-- <div class='content_progress'>Sudah</div> -->
+		
+		<!-- <div class='content_progress'>4</div> -->
+		<!-- <div class='content_progress'><a href="fetch_json_index.html">Fetch JSON</a></div> -->
+		<!-- <div class='content_progress'>Sudah</div> -->
+		
+		<!-- <div class='content_progress'>5</div> -->
+		<!-- <div class='content_progress'>Offline App</div> -->
+		<!-- <div class='content_progress'>Web Tetap Berhasil Dibuka Saat Offline (refresh halaman) </div> -->
+		
+		<!-- <div class='content_progress'>6</div> -->
+		<!-- <div class='content_progress'>Add to HomeScreen</div> -->
+		<!-- <div class='content_progress'>Add to Homescreen telah muncul saat pertama akses web</div> -->
+		
+	<!-- </div> -->
+	
+	
+	<div class="gdk_header">
+			<div class="gdk_content">
+	
+				<div class="responsive">
+				  <div class="gallery">
+					<a target="_blank" href="css_grid_index.html">
+					  <img src="images/logo/grid.png" alt="CSS Grid" width="600" height="400">
+					</a>
+					<div class="desc"><a target="_blank" href="css_grid_index.html">Grid</a></div>
+				  </div>
+				</div>
+
+
+				<div class="responsive">
+				  <div class="gallery">
+					<a target="_blank" href="kalkulator_add2number.html">
+					  <img src="images/logo/kalkulator.png" alt="Kalkulator" width="600" height="400">
+					</a>
+					<div class="desc"><a target="_blank" href="kalkulator_add2number.html">Kalkulator</a></div>
+				  </div>
+				</div>
+
+				<div class="responsive">
+				  <div class="gallery">
+					<a target="_blank" href="leaflet_index.html">
+					  <img src="images/logo/leaflet.png" alt="Leaflet" width="600" height="400">
+					</a>
+					<div class="desc"><a target="_blank" href="leaflet_index.html">Leaflet</a></div>
+				  </div>
+				</div>
+
+				<div class="responsive">
+				  <div class="gallery">
+					<a target="_blank" href="fetch_json_index.html">
+					  <img src="images/logo/json.png" alt="Fetch JSON" width="600" height="400">
+					</a>
+					<div class="desc"><a target="_blank" href="fetch_json_index.html">Fetch JSON</a></div>
+				  </div>
+				</div>
+				
+				<div class="responsive">
+				  <div class="gallery">
+					<a target="_blank" href="offline_app_index.html">
+					  <img src="images/logo/offline.png" alt="Offline App" width="600" height="400">
+					</a>
+					<div class="desc"><a target="_blank" href="offline_app_index.html">Offline App</a></div>
+				  </div>
+				</div>
+				
+				<div class="responsive">
+				  <div class="gallery">
+					<a target="_blank" href="add2homescreen_index.html">
+					  <img src="images/logo/homescreen.png" alt="Add to Homescreen" width="600" height="400">
+					</a>
+					<div class="desc"><a target="_blank" href="add2homescreen_index.html">A2HS</a></div>
+				  </div>
+				</div>
+				
+
+	
+		</div>
+	</div>
+	</center> 
+
+		<!-- <script src="js/navigation_script.js"></script> -->
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+</body>
+
+<script>
+	if ('serviceWorker' in navigator) {
+		console.log("Will the service worker register?");
+		navigator.serviceWorker.register('service-worker.js')
+			.then(function(reg){
+			console.log("Yes, it did.");
+		}).catch(function(err) {
+			console.log("No it didn't. This happened: ", err)
+		});
+	}
+  
+  window.addEventListener('beforeinstallprompt', function(e) {
+  // beforeinstallprompt Event fired
+
+  // e.userChoice will return a Promise. 
+  // For more details read: https://developers.google.com/web/fundamentals/getting-started/primers/promises
+  e.userChoice.then(function(choiceResult) {
+
+    console.log(choiceResult.outcome);
+
+    if(choiceResult.outcome == 'dismissed') {
+      console.log('User cancelled home screen install');
+    }
+    else {
+      console.log('User added to home screen');
+    }
+  });
+});
+</script>
+
+</html>
+

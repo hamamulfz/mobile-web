@@ -1,0 +1,48 @@
+{
+"places":[
+		{
+			"lokasi": [-7.845660, 110.480239],
+			"sponsor" : "Bukit Bintang",
+			"gambar": "images/location/foto-bukit-bintang-jogja.jpg",
+			"review": "Bukit yang terkenal dengan pemandangan indah, terutama saat langit malam dipenuhi bintang."
+		},
+		{
+			"lokasi": [-7.939923, 110.424350],
+			"sponsor" : "Kebun Buah Mangunan",
+			"gambar": "images/location/kebun-buah-mangunan.jpg",
+			"review": "Jl. Imogiri - Dlingo, Sukorame, Mangunan, Dlingo, Bantul, Daerah Istimewa Yogyakarta 55783"
+		},
+		{
+			"lokasi": [-7.747678, 110.418931],
+			"sponsor" : "Jogja Bay",
+			"gambar": "images/location/jogjabay.jpg",
+			"review": "Taman hiburan di area pegunungan berhutan dengan perosotan air raksasa, kapal bajak laut & atraksi lainnya."
+		},
+		{
+			"lokasi": [-7.800784, 110.367371],
+			"sponsor" : "Taman Pintar",
+			"gambar": "images/location/Taman-Pintar-Yogyakarta.jpg",
+			"review": "Pusat pendidikan anak-anak populer yang menawarkan berbagai pameran interaktif dan game ilmu pengetahuan."
+		},
+		
+		{
+			"lokasi": [-7.773364, 110.380035],
+			"sponsor" : "Masjid Kampus UGM",
+			"gambar": "images/location/maskam-ugm.jpg",
+			"review": "Jl. Prof. DR. Drs Notonagoro, Karang Malang, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281"
+		},
+				{
+			"lokasi": [-7.803927, 110.362333],
+			"sponsor" : "Masjid Gedhe Kauman",
+			"gambar": "images/location/Masjid-Gedhe-Kauman.jpg",
+			"review": "Alun-Alun Keraton, Jl. Kauman, Ngupasan, Gondomanan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55132"
+		},
+		{
+			"lokasi": [-7.816434, 110.387132],
+			"sponsor" : "De Mata - Tricky Eye",
+			"gambar": "images/location/de-mata.jpg",
+			"review": "Museum unik yang menampilkan gambar latar belakang seperti nyata untuk menciptakan ilusi optik interaktif. \n XT Square, Jl. Veteran No.150-151, Pandeyan, Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55161"
+		}
+		
+	]
+}

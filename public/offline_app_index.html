@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>Offfline App - MWS</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<Center> 
+		<div class="gdk_header">
+			<div class="gdk_content"><img src="images/gdk.png" alt="logo gdk" width="80%" ></div>
+		</div>	
+
+	</center>
+	<link rel="stylesheet" type="text/css" href="css/leaflet_style.css">
+	<link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
+	
+	
+</head>
+
+<body>
+
+	<div class="topnav" id="myTopnav">
+		<a href="index.html" >Home</a>
+		<a href="css_grid_index.html">CSS Grid</a>
+		<a href="kalkulator_add2number.html">Kalkulator</a>
+		<a href="leaflet_index.html">Leaflet</a>
+		<a href="fetch_json_index.html">Fecth JSON</a>
+		<a href="offline_app_index.html" class="active">Offline App</a>
+		<a href="add2homescreen_index.html">A2HS</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+<center>
+	<p>Hasil pengujian dengan menggunakan Lighthouse untuk fitur Add ti Offline (A2HS)</p>
+	<div class="gdk_header">
+			<div class="gdk_content"><img src="images/_scoring.jpg" alt="logo gdk" width="80%" ></div>
+		</div>	
+	
+	<p>Detail hasil pengujian untuk Offline App </p>
+	<div class="gdk_header">
+			<div class="gdk_content"><img src="images/_offline.jpg" alt="logo gdk" width="80%" ></div>
+		</div>	
+	
+	<p>(Entah kenapa kadang hasilnya agak berbeda setiap pengujian)</p>
+</center>
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+</body>
+
+
+</html>
+

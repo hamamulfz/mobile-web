@@ -1,0 +1,57 @@
+<html>
+
+<head>
+	<Center> 
+		<div class="gdk_header">
+			<div class="gdk_content"><img src="images/gdk.png" alt="logo gdk" width="80%" ></div>
+		</div>
+	</center>
+	<link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
+	
+	<title>CSS Grid</title>
+	<link rel="stylesheet" type="text/css" href="css/leaflet_style.css">
+
+
+</head>
+
+<body>
+	<div class="topnav" id="myTopnav">
+		<a href="index.html" >Home</a>
+		<a href="css_grid_index.html" class="active">CSS Grid</a>
+		<a href="kalkulator_add2number.html">Kalkulator</a>
+		<a href="leaflet_index.html">Leaflet</a>
+		<a href="fetch_json_index.html">Fecth JSON</a>
+		<a href="offline_app_index.html">Offline App</a>		
+		<a href="add2homescreen_index.html">A2HS</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+
+	<div class="container_grid">
+		<div class='menu'>1</div>
+		<div class='sidebar'>2</div>
+		<div class='konten1'>3</div>
+		<div class='konten2'>4</div>
+		<div class='konten3'>5</div>
+		<div class='konten4'>6</div>
+		<div class='footer'>7</div>
+	</div>
+	
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+	
+</body>
+
+
+
+</html>
