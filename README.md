@@ -1,6 +1,6 @@
 # mobile-web
 
-This project is a part of Mobile Web Specialist Training held by Google Developer Kejar x Inixindo.
+This project is a part of [Mobile Web Specialist](https://events.withgoogle.com/googledeveloperskejar/) Training held by Google Developer Kejar x Inixindo.
 This is my web link [mws-hamamul.firebaseapp.com](https://mws-hamamul.firebaseapp.com/)
 
 
