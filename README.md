@@ -17,17 +17,17 @@ Things you need to install the software is by using a hosting like [firebase](ht
 
 ### Installing
 
-install this project in firebase hosting by using Node.js
+install this project in firebase hosting by using [Node.js](https://nodejs.org/en/)
 
 
 ## Assigment List
 
 * Responsive CSS Grid
 * Calculator DevTool - Javascript
-* Mapbox - Leaflet
+* [Mapbox](https://www.mapbox.com/) - [Leaflet](https://leafletjs.com/)
 * Fetch JSON
 * Offline App
-* Add to Homescreen
+* [Add to Homescreen](https://codelabs.developers.google.com/codelabs/add-to-home-screen/#0) 
 
 
 ## Deployment
@@ -37,9 +37,9 @@ install this project in firebase hosting by using Node.js
 
 ## Built With
 
-* [HTML Code](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Node.Js](https://maven.apache.org/) - Dependency Management
-* [JavaScript](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [HTML Code]
+* [Node.Js]
+* [JavaScript]
 * [CSS Script]
 * [Mapbox - Leaflet]
 * [Developer Tools]
