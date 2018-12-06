@@ -40,6 +40,11 @@ install this project in firebase hosting by using Node.js
 * [HTML Code](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Node.Js](https://maven.apache.org/) - Dependency Management
 * [JavaScript](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [CSS Script]
+* [Mapbox - Leaflet]
+* [Developer Tools]
+* [JSON]
+* [Progresive Web App]
 
 
 ## Versioning
