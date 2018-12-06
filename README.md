@@ -1,6 +1,7 @@
 # mobile-web
 
-This project is a part of Mobile Web Specialist Training held by Google Developer Kejar x Inixindo
+This project is a part of Mobile Web Specialist Training held by Google Developer Kejar x Inixindo.
+This is my web link [mws-hamamul.firebaseapp.com](https://mws-hamamul.firebaseapp.com/)
 
 
 ## Getting Started
@@ -19,34 +20,36 @@ Things you need to install the software is by using a hosting like firebase host
 install this project in firebase hosting by using Node.js
 
 
-## Running the tests
+## Assigment List
 
-Explain how to run the automated tests for this system
+* Responsive CSS Grid
+* Calculator DevTool - Javascript
+* Mapbox - Leaflet
+* Fetch JSON
+* Offline App
+* Add to Homescreen
 
 
 ## Deployment
+* Firebase Init
+* Firebase Deploy
 
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [HTML Code](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Node.Js](https://maven.apache.org/) - Dependency Management
+* [JavaScript](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+This is final version of homework list. See the [My Firebase Web](https://mws-hamamul.firebaseapp.com/). 
 
 ## Authors
 
-* **Hamamul Fauzi** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Hamamul Fauzi** - *Initial work* - [hamamulfz](https://github.com/hamamulfz)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
