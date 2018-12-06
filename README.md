@@ -32,8 +32,20 @@ install this project in firebase hosting by using [Node.js](https://nodejs.org/e
 
 
 ## Deployment
-* Firebase Init
-* Firebase Deploy
+* Login to firebase in node.js
+```
+firebase login
+```
+
+* init directory 
+```
+firebase init
+```
+
+* deploy project
+```
+firebase deploy
+```
 
 
 ## Built With
