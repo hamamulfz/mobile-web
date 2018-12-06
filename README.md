@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Things you need to install the software is by using a hosting like firebase hosting feature
+Things you need to install the software is by using a hosting like [firebase](https://firebase.google.com/?hl=id) hosting feature
 
 
 
