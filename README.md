@@ -22,12 +22,13 @@ install this project in firebase hosting by using [Node.js](https://nodejs.org/e
 
 ## Assigment List
 
-* Responsive CSS Grid
-* Calculator DevTool - Javascript
-* [Mapbox](https://www.mapbox.com/) - [Leaflet](https://leafletjs.com/)
-* Fetch JSON
-* Offline App
-* [Add to Homescreen](https://codelabs.developers.google.com/codelabs/add-to-home-screen/#0) 
+* [Home](https://mws-hamamul.firebaseapp.com/)
+* [Responsive CSS Grid](https://mws-hamamul.firebaseapp.com/css_grid_index.html)
+* [Calculator DevTool - Javascript](https://mws-hamamul.firebaseapp.com/kalkulator_add2number.html)
+* [Mapbox - Leaflet](https://mws-hamamul.firebaseapp.com/leaflet_index.html)
+* [Fetch JSON](https://mws-hamamul.firebaseapp.com/fetch_json_index.html)
+* [Offline App](https://mws-hamamul.firebaseapp.com/offline_app_index.html)
+* [Add to Homescreen](https://mws-hamamul.firebaseapp.com/add2homescreen_index.html) 
 
 
 ## Deployment
@@ -41,7 +42,7 @@ install this project in firebase hosting by using [Node.js](https://nodejs.org/e
 * [Node.Js]
 * [JavaScript]
 * [CSS Script]
-* [Mapbox - Leaflet]
+* [Mapbox](https://www.mapbox.com/) - [Leaflet](https://leafletjs.com/)
 * [Developer Tools]
 * [JSON]
 * [Progresive Web App]
